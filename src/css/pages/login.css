@@ -1,0 +1,64 @@
+.container-login{
+    max-width: 1366px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 5px;
+}
+
+.container-image-login{
+    display: grid;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.container-login-white{
+    display:grid;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+    position: relative;
+}
+
+.container-login-frase{
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.container-login-buttonsLogin{
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.container-login-borders{
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.container-login-borders::before{
+    content: "";
+    display: block;
+    height: 1px;
+    background: #7E55F3;
+    flex: 1;
+}
+
+.separator-content{
+    flex: none;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container-login-borders::after{
+    content: "";
+    display: block;
+    height: 1px;
+    background: #7E55F3;
+    flex: 1;
+}
+
