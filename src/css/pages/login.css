@@ -18,8 +18,9 @@
     display:grid;
     margin: 0 auto;
     background-color: white;
-    padding: 5px;
+    padding: 15px;
     position: relative;
+    margin-top: 20px;
 }
 
 .container-login-frase{
@@ -62,3 +63,41 @@
     flex: 1;
 }
 
+.container-login-inputs-button{
+    display: grid;
+    margin: 0 auto;
+}
+
+.login-input{
+    height: 40px;
+    width: 220px;
+    margin-bottom: 10px;
+    border: 1px solid #8492A6;
+    border-radius: 5px;
+}
+
+.container-login-links-texto{
+    display: grid;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #8190A5;
+    padding-left: 10px;
+}
+
+.links{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto-termos{
+    font-size: 14px;
+    text-align: center;
+    width: 420px;
+    color: #8190A5;
+    margin-top: 10px;
+}
