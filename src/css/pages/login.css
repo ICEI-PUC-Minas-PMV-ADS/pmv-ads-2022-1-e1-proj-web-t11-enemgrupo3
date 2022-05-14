@@ -1,13 +1,4 @@
 /* CSS LOGIN */
-
-.container-login{
-    max-width: 1366px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: 5px;
-}
-
 .container-image-login{
     display: grid;
     margin: 0 auto;

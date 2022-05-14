@@ -1,0 +1,26 @@
+.header{ 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    margin-top: 20px;
+}
+
+.e-links{
+    font-size: 18px;
+    text-align: end;
+}
+
+a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: #47525E;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
