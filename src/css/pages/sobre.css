@@ -1,0 +1,42 @@
+.container-text{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    background: #dcdcdc;
+    line-height: 2.1;
+    font-size: 18px;
+    text-indent: 20px;
+    border-radius: 30px;
+}
+.container-image-enem{
+    display: inline-block;
+    float: left;
+   }
+   header{
+    display: inline-block;
+   
+    width: 100%;
+   }
+   .e-links{
+    position: relative;
+    top: -5rem;
+    display: inline-block;
+    float: right;
+   }
+  .material-symbols-outlined{
+    background-image: url("https://icones.pro/wp-content/uploads/2021/06/icone-loupe-noir.png");
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+  }
+  p {
+
+color: #4F4F4F;
+
+}
+  
