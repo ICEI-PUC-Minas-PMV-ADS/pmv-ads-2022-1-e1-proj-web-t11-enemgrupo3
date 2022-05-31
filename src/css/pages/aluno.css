@@ -1,0 +1,105 @@
+
+.container-mensagemBoasVindas{
+    margin: 0 auto;
+    width: 50%;
+    background-color: #969FAA;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #47525E;
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.container-login-white{
+    display:grid;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px;
+    position: center;
+    margin-top: 20px;
+}
+
+.container-buttons-home{
+    margin: 0 auto;
+    width: 60%;
+    height: 100px;
+    background-color: #969FAA;
+    margin-top: 35px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn-home{
+    width: 20%;
+    margin-right: 20px;
+    font-weight: bold;
+}
+.container-botoes{
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    display:flex;
+   
+}
+
+.container-btn{
+    display: inline-block;
+}
+
+.btn-alunos{
+    background: red;
+    width: 150px;
+    margin-left: 10px;
+
+}
+
+
+.container-text {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    background: #dcdcdc;
+    line-height: 2.1;
+    font-size: 18px;
+    text-indent: 20px;
+    border-radius: 30px;
+}
+
+.container-image-enem {
+    display: inline-block;
+    float: left;
+}
+
+header {
+    display: inline-block;
+
+    width: 100%;
+}
+
+.e-links {
+    position: relative;
+    top: -5rem;
+    display: inline-block;
+    float: right;
+}
+
+.material-symbols-outlined {
+    background-image: url("https://icones.pro/wp-content/uploads/2021/06/icone-loupe-noir.png");
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p {
+
+    color: #4F4F4F;
+
+}
