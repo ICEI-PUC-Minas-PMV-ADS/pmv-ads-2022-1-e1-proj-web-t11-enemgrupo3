@@ -83,6 +83,9 @@
             <!-- PAGES -->
             <link rel="stylesheet" href="css/pages/pagina-tutor.css">
 
+            <!-- SCRIPTS -->
+            <script src="js/criar-turma.js"></script>
+
             <!-- -----------------------End Styles CSS----------------------- -->
         </head>
 
@@ -108,34 +111,36 @@
                         <h1>Minha Turma</h1>
                     </div>
                     <div class="container-form">
-                        <div class="form">
+                        <form onsubmit="create()" action="javascript:void(0)" class="form">
                             <div class="container-role-input">
                                 <div class="role-input">
                                     <label>Nome Turma:</label>
-                                    <input class="e-inputs" type="text">
+                                    <input required id="nomeTurma" class="e-inputs" type="text">
                                 </div>
                                 <div class="role-input">
                                     <label>Matéria:</label>
-                                    <input class="e-inputs" type="email">
+                                    <input required id="materia" class="e-inputs" type="email">
                                 </div>
                                 <div class="role-input">
                                     <label>Alunos:</label>
-                                    <input class="e-inputs" type="text">
+                                    <input required id="alunos" class="e-inputs" type="text">
                                 </div>
                                 <div class="role-input finish">
                                     <label>Ambiente:</label>
-                                    <input class="e-inputs" type="text">
+                                    <input required id="ambiente" class="e-inputs" type="text">
                                 </div>
                                 <div class="role-input finish">
                                     <label>Pontuação:</label>
-                                    <input class="e-inputs" type="number">
+                                    <input required id="pontuacao" class="e-inputs" type="number">
                                 </div>
                             </div>
                             <div class="container-buttons">
-                                <button class="button-default btn-cadastro">Criar Turma</button>
-                                <button class="button-default btn-cadastro">Editar Turma</button>
+                                <button type="submit" id="action-button" class="button-default btn-cadastro">Criar
+                                    Turma</button>
+                                <button type="submit" id="action-button" class="button-default btn-cadastro">Editar
+                                    Turma</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </main>
 
