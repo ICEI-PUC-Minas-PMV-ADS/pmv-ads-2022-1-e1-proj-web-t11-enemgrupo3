@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>avalie-tutor</title>
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,9 +36,10 @@
     <link rel="stylesheet" href="css/components/e-footer.css">
 
     <!-- PAGES -->
-    <link rel="stylesheet" href="css/pages/home.css">
+    <link rel="stylesheet" href="css/pages/avalie-tutor.css">
 
     <!-- -----------------------End Styles CSS----------------------- -->
+
 </head>
 
 <body>
@@ -58,15 +59,55 @@
             </div>
         </header>
 
+
         <main>
-            <div class="container-mensagemBoasVindas">
-                <p>Conectamos alunos interessados em estudar redação e matemática para o ENEM com tutores interessados
-                    em estagiar.</p>
+            <div class="container-geral">
+
+
+                <div class="container-frase">
+                    <div>
+                        <p>avalie seu tutor!</p>
+                    </div>
+                </div>
+                <div class="container-mensagemBoasVindas">
+                    <form action="" method="get">
+                        <label for="nome">tutor:</label>
+                        <input id="nome" type="text" placeholder="digite o nome do curso" name="nome" />
+                    </form>
+                    <form action="" method="get"></form>
+                    <label for="nome">matéria:</label>
+                    <input id="nome" type="text" placeholder="digite o nome do tutor" name="nome" />
+                    </form>
+                    <form action="" method="get"></form>
+                    <label for="nome">avalie:</label>
+                    <input id="nome" type="text" />
+                    </form>
+                    <form action="" method="get"></form>
+                    <label for="nome">qt.aluno:</label>
+                    <input id="nome" type="text" placeholder="digite o nome do tutor" name="nome" />
+                    </form>
+                    <form action="" method="get">
+                        <label for="nome">descrição do tutor:</label>
+                        <input id="nome" type="text" placeholder="descrição de perfil feita pelo tutor" name="nome" />
+                    </form>
+                </div>
             </div>
-            <div class="container-buttons-home">
-                <button class="button-default btn-home">Aluno</button>
-                <button class="button-default btn-home">Tutor</button>
+    </div>
+    <div>
+        <textarea name="msg" type="text"
+            placeholder="ㅤdeixe sua mensagem para aprimorar nossa didática de ensino."></textarea>
+        <div class="container-botoes">
+            <div class="container-btn">
+                <button class="button-default btn-alunos">tutores</button>
             </div>
+            <div class="container-btn">
+                <button class="button-default btn-alunos">avaliação</button>
+            </div>
+            <div class="container-btn">
+                <button class="button-default btn-alunos">perfil</button>
+            </div>
+        </div>
+
         </main>
 
         <footer class="footer">
