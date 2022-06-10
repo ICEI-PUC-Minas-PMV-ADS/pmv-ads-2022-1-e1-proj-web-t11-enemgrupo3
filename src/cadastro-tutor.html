@@ -37,6 +37,9 @@
     <!-- PAGES -->
     <link rel="stylesheet" href="css/pages/cadastro-aluno-tutor.css">
 
+    <!-- SCRIPTS -->
+    <script src="js/create-tutor.js"></script>
+
     <!-- -----------------------End Styles CSS----------------------- -->
 </head>
 
@@ -49,24 +52,25 @@
             <div class="container-imagem">
                 <img src="assets/images/logo.png" alt="">
             </div>
-            <div class="container-form">
+            <form onsubmit="create()" action="javascript:void(0)" class="container-form">
                 <div class="form">
                     <div class="container-role-input">
                         <div class="role-input">
                             <label>Nome Completo:</label>
-                            <input class="e-inputs" type="text" placeholder="Seu nome">
+                            <input required id="nome" class="e-inputs" type="text" placeholder="Seu nome">
                         </div>
                         <div class="role-input">
                             <label>E-mail:</label>
-                            <input class="e-inputs" type="email" placeholder="email@email.com">
+                            <input required id="email" class="e-inputs" type="email" placeholder="email@email.com">
                         </div>
                         <div class="role-input">
                             <label>Senha:</label>
-                            <input class="e-inputs" type="password" placeholder="Senha com no mínimo 6 caracteres">
+                            <input required id="senha" class="e-inputs" type="password"
+                                placeholder="Senha com no mínimo 6 caracteres">
                         </div>
                         <div class="role-input finish">
                             <label>Confirme a Senha:</label>
-                            <input class="e-inputs" type="password" placeholder="Confirme sua senha">
+                            <input id="confirmeSenha" class="e-inputs" type="password" placeholder="Confirme sua senha">
                         </div>
                     </div>
                     <div class="container-buttons">
@@ -74,7 +78,7 @@
                         <button class="button-default btn-cadastro">Cancelar</button>
                     </div>
                 </div>
-            </div>
+            </form>
         </main>
 
 

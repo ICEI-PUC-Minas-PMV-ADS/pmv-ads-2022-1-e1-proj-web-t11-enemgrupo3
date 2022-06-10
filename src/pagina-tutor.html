@@ -83,6 +83,9 @@
             <!-- PAGES -->
             <link rel="stylesheet" href="css/pages/pagina-tutor.css">
 
+            <!-- SCRIPTS -->
+            <script src="js/criar-turma.js"></script>
+
             <!-- -----------------------End Styles CSS----------------------- -->
         </head>
         <main>
@@ -94,16 +97,55 @@
                     </div>
                     <div></div>
                     <div class="e-links">
-                        <span><a href="home.html">Home</a></span>
-                        <span><a href="sobre.html">Sobre</a></span>
-                        <span><a href="pagina-aluno.html">Alunos</a></span>
-                        <span><a href="pagina-tutor.html">Tutores</a></span>
-                        <span><a href="#">Contato</a></span>
+
+                        <span><a class="links" href="#">Home</a></span>
+                        <span><a class="links" href=" #">Sobre</a></span>
+                        <span><a class="links" href="#">Alunos</a></span>
+                        <span><a class="links" href="#">Tutores</a></span>
+                        <span><a class="links" href="#">Contato</a></span>
+
                         <span class="material-symbols-outlined">search</span>
                     </div>
                 </header>
 
-                
+
+                <main>
+                    <div class="container-titulo">
+                        <h1>Minha Turma</h1>
+                    </div>
+                    <div class="container-form">
+                        <form onsubmit="create()" action="javascript:void(0)" class="form">
+                            <div class="container-role-input">
+                                <div class="role-input">
+                                    <label>Nome Turma:</label>
+                                    <input required id="nomeTurma" class="e-inputs" type="text">
+                                </div>
+                                <div class="role-input">
+                                    <label>Matéria:</label>
+                                    <input required id="materia" class="e-inputs" type="email">
+                                </div>
+                                <div class="role-input">
+                                    <label>Alunos:</label>
+                                    <input required id="alunos" class="e-inputs" type="text">
+                                </div>
+                                <div class="role-input finish">
+                                    <label>Ambiente:</label>
+                                    <input required id="ambiente" class="e-inputs" type="text">
+                                </div>
+                                <div class="role-input finish">
+                                    <label>Pontuação:</label>
+                                    <input required id="pontuacao" class="e-inputs" type="number">
+                                </div>
+                            </div>
+                            <div class="container-buttons">
+                                <button type="submit" id="action-button" class="button-default btn-cadastro">Criar
+                                    Turma</button>
+                                <button type="submit" id="action-button" class="button-default btn-cadastro">Editar
+                                    Turma</button>
+                            </div>
+                        </form>
+                    </div>
+
                 </main>
 
                 <footer class="footer">
