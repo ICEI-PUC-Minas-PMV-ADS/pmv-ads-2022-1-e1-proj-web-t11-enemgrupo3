@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>avalie-tutor</title>
+    <title>minha turma</title>
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/components/e-footer.css">
 
     <!-- PAGES -->
-    <link rel="stylesheet" href="css/pages/avalie-tutor.css">
+    <link rel="stylesheet" href="css/pages/minha-turma.css">
 
     <!-- -----------------------End Styles CSS----------------------- -->
 
@@ -50,14 +50,11 @@
             </div>
             <div></div>
             <div class="e-links">
-
-
-                <span><a class="links" href="#">Home</a></span>
-                <span><a class="links" href=" #">Sobre</a></span>
-                <span><a class="links" href="#">Alunos</a></span>
-                <span><a class="links" href="#">Tutores</a></span>
-                <span><a class="links" href="#">Contato</a></span>
-                
+                <span><a href="home.html">Home</a></span>
+                <span><a href="sobre.html">Sobre</a></span>
+                <span><a href="pagina-aluno.html">Alunos</a></span>
+                <span><a href="pagina-tutor.html">Tutores</a></span>
+                <span><a href="#">Contato</a></span>
                 <span class="material-symbols-outlined">search</span>
             </div>
         </header>
@@ -69,45 +66,49 @@
 
                 <div class="container-frase">
                     <div>
-                        <p>avalie seu tutor!</p>
+                        <p>minha turma</p>
                     </div>
                 </div>
                 <div class="container-mensagemBoasVindas">
                     <form action="" method="get">
-                        <label for="nome">tutor:</label>
-                        <input id="nome" type="text" placeholder="digite o nome do curso" name="nome" />
+                        <label for="nome">nome da turma:</label>
+                        <input id="nome" type="text" placeholder="" name="nome" />
                     </form>
                     <form action="" method="get"></form>
                     <label for="nome">matéria:</label>
-                    <input id="nome" type="text" placeholder="digite o nome do tutor" name="nome" />
+                    <input id="nome" type="text" placeholder="" name="nome" />
                     </form>
                     <form action="" method="get"></form>
-                    <label for="nome">avalie:</label>
+                    <label for="nome">alunos:</label>
                     <input id="nome" type="text" />
                     </form>
                     <form action="" method="get"></form>
-                    <label for="nome">qt.aluno:</label>
-                    <input id="nome" type="text" placeholder="digite o nome do tutor" name="nome" />
+                    <label for="nome">ambiente:</label>
+                    <input id="nome" type="text" placeholder="" name="nome" />
                     </form>
                     <form action="" method="get">
-                        <label for="nome">descrição do tutor:</label>
-                        <input id="nome" type="text" placeholder="descrição de perfil feita pelo tutor" name="nome" />
+                    <label for="nome">pontuação:</label>
+                    <input id="nome" type="text" placeholder="" name="nome" />
+                </form>
+                    <label for="opção">voce gostou do site?</label>
+                    <form action="" method="get">
+			<input type="radio" name= "opção" value="sim"  />sim
+			<input type="radio" name= "opção" value="não" />não
                     </form>
                 </div>
             </div>
     </div>
-    <div>
-        <textarea name="msg" type="text"
-            placeholder="ㅤdeixe sua mensagem para aprimorar nossa didática de ensino."></textarea>
+    
+       
         <div class="container-botoes">
             <div class="container-btn">
-                <button class="button-default btn-alunos">tutores</button>
-            </div>
-            <div class="container-btn">
-                <button class="button-default btn-alunos">avaliação</button>
-            </div>
-            <div class="container-btn">
                 <button class="button-default btn-alunos">perfil</button>
+            </div>
+            <div class="container-btn">
+                <button class="button-default btn-alunos">criar turma</button>
+            </div>
+            <div class="container-btn">
+                <button class="button-default btn-alunos">editar turma</button>
             </div>
         </div>
 
